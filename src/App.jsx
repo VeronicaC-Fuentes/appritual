@@ -15,16 +15,16 @@ import {
 } from "lucide-react";
 
 const defaultHabits = [
-  { text: "🌅 Ritual base: cama, agua, respirar", iconName: "BedDouble" },
-  { text: "💼 Trabajar con Brolsac", iconName: "Folder" },
-  { text: "💻 Trabajar con webs", iconName: "Globe" },
-  { text: "🚀 Aplicar proyectos nuevos", iconName: "CheckCircle" },
-  { text: "🗣️ Practicar inglés (hablar, leer o escribir)", iconName: "BookOpen" },
-  { text: "📚 Leer (libro, blog, artículo)", iconName: "BookOpen" },
-  { text: "📝 Escribir (diario, ideas, griterío)", iconName: "PenTool" },
-  { text: "🎧 Disfrutar algo en inglés", iconName: "Music" },
-  { text: "🎓 Estudiar (curso o avance)", iconName: "Brain" },
-  { text: "🌙 Ritual de cierre: agradecer, ordenar", iconName: "Smile" },
+  { text: "Ritual base: cama, agua, respirar", iconName: "BedDouble" },
+  { text: "Trabajar con Brolsac", iconName: "Folder" },
+  { text: "Trabajar con webs", iconName: "Globe" },
+  { text: "Aplicar proyectos nuevos", iconName: "CheckCircle" },
+  { text: "Practicar inglés (hablar, leer o escribir)", iconName: "BookOpen" },
+  { text: "Leer (libro, blog, artículo)", iconName: "BookOpen" },
+  { text: "Escribir (diario, ideas, griterío)", iconName: "PenTool" },
+  { text: "Disfrutar algo en inglés", iconName: "Music" },
+  { text: "Estudiar (curso o avance)", iconName: "Brain" },
+  { text: "Ritual de cierre: agradecer, ordenar", iconName: "Smile" },
 ];
 
 const iconMap = {
