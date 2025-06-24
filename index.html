@@ -1,16 +1,38 @@
 <!doctype html>
-<html lang="en">
-
+<html lang="es">
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="manifest" href="/manifest.webmanifest" />
-  <meta name="theme-color" content="#FACC15" />
-  <link rel="apple-touch-icon" sizes="192x192" href="/icons/icon-192.png" />
-</head>
+  <meta charset="utf-8"/>
+  <!-- 1) viewport -->
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
+  <!-- 2) theme-color oscuro -->
+  <meta name="theme-color" content="#12081c" />
+
+  <!-- 3) manifest y apple icon -->
+  <link rel="manifest" href="/manifest.webmanifest" />
+  <link rel="apple-touch-icon" sizes="192x192" href="/icons/icon-192.png" />
+
+  <!-- 4) ESTILO INLINE PARA EVITAR FLASH BLANCO -->
+  <style>
+    html, body {
+      margin: 0; padding: 0; height: 100%;
+      /* mismo degradado que tu app React */
+      background: linear-gradient(
+        to bottom right,
+        #0d0221 0%,
+        #1b0424 50%,
+        #12081c 100%
+      );
+      color: #e5c07b;
+      font-family: sans-serif;
+    }
+    #root {
+      height: 100%;
+    }
+  </style>
+</head>
 <body>
   <div id="root"></div>
   <script type="module" src="/src/main.jsx"></script>
 </body>
-
 </html>
